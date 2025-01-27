@@ -1,4 +1,4 @@
-package tfclean
+package my_go_cli_example
 
 import (
 	"context"

@@ -1,8 +1,9 @@
-package tfclean
+package my_go_cli_example
 
 import (
 	"context"
 	"fmt"
+
 	"github.com/alecthomas/kong"
 )
 
@@ -13,8 +14,6 @@ type GlobalOptions struct {
 }
 
 type CLI struct {
-	Tfstate string      `help:"Terraform state file"`
-	Dir     string      `arg:"" required:"" help:"Directory to clean"`
 	Version VersionFlag `name:"version" help:"show version"`
 }
 
